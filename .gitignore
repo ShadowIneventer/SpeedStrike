@@ -1,0 +1,6 @@
+bin/
+.vscode/
+libs/
+.DS_Store
+*.zip
+*.tar.gz
