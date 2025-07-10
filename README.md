@@ -24,7 +24,7 @@ Challenge yourself or a friend to see who reacts faster. Includes AI mode with d
 
 - ✅ Arduino Uno / Nano / Mega  
 - ✅ LCD Display (LiquidCrystal I2C)  
-- ✅ 2 Push Buttons  
+- ✅ 5 Push Buttons  
 - ✅ 1 Passive Buzzer  
 - ✅ Jumper Wires + Breadboard  
 
@@ -45,11 +45,11 @@ Challenge yourself or a friend to see who reacts faster. Includes AI mode with d
 |----------------------|---------------------|-------------------------------------------|
 | LCD I2C Display      | SDA → A4 (Uno/Nano) | Use I2C interface                         |
 |                      | SCL → A5 (Uno/Nano) |                                           |
-| Button 1 (Player 1)  | D2                  | Use pull-down resistor or INPUT_PULLUP    |
-| Button 2 (Player 2)  | D3                  | Use pull-down resistor or INPUT_PULLUP    |
+| Button 1 (Player 1)  | D7                  | Use pull-down resistor or INPUT_PULLUP    |
+| Button 2 (Player 2)  | D6                  | Use pull-down resistor or INPUT_PULLUP    |
+| Mode Select Button   | D5                  | Switch between AI and 2-Player modes      |
+| Difficulty Button    | D4                  | Cycle through AI difficulty levels        |
 | Mode Select Button   | D4                  | Switch between AI and 2-Player modes      |
-| OK Button            | D4                  | To select conform modes                   |
-| Difficulty Button    | D5                  | Cycle through AI difficulty levels        |
 | Passive Buzzer       | D6                  | Active HIGH to buzz                       |
 | GND (All Components) | GND                 | Connect all GNDs to Arduino GND           |
 | VCC (LCD + Buzzer)   | 5V                  | LCD & buzzer need 5V                      |
