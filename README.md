@@ -49,7 +49,7 @@ Challenge yourself or a friend to see who reacts faster. Includes AI mode with d
 | Button 2 (Player 2)  | D6                  | Use pull-down resistor or INPUT_PULLUP    |
 | Mode Select Button   | D5                  | Switch between AI and 2-Player modes      |
 | Difficulty Button    | D4                  | Cycle through AI difficulty levels        |
-| Mode Select Button   | D4                  | Switch between AI and 2-Player modes      |
+| Ok Button            | D3                  | To Confirm selected modes                |
 | Passive Buzzer       | D6                  | Active HIGH to buzz                       |
 | GND (All Components) | GND                 | Connect all GNDs to Arduino GND           |
 | VCC (LCD + Buzzer)   | 5V                  | LCD & buzzer need 5V                      |
